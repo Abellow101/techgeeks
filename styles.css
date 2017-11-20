@@ -1,0 +1,53 @@
+
+body {
+  color: #333;
+  margin: 0;
+}
+#header {
+  background-color: #324545;
+  height: 150px;
+  line-height: 150px
+}
+#header-title {
+  display: block;
+  float: inline;
+  font-size: 500px;
+  font-weight: bold;
+}
+#header-nav {
+  display: block;
+  float: right;
+  margin-top: 0;
+
+}
+.container {
+  max-width: 1000px;
+  margin: 0px auto;
+
+}
+#header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 75px;
+  font-family: fantasy;
+  padding: 275px
+
+}
+#header a:hover {
+  color: 555;
+
+}
+.download {
+  margin-left: 275px;
+  margin-top: 100px;
+  font-size: 100px;
+  font-family: fantasy;
+
+}
+.dl {
+  margin-left:375px;
+  font-size: 75px;
+  color: black
+}
